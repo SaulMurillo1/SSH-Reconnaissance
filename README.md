@@ -88,6 +88,26 @@ Command: nmap 192.118.151.3 -p 22 --script ssh-hostkey --script-args ssh_hostkey
 <br />
 <br />
 <br />
+Run nmap scan to enumerate which authentication method is being used by the SSH server for users named student & admin: <br/>
+<br/>
+- It looks like the "student" user authentication method is none_auth, which means there is no authentication method assigned to it.
+<br/>
+- We can also see that the "admin" user requires a publickey and password.
+<br/>
+<br/>
+Commands: nmap 192.118.151.3 -p 22 --script ssh-auth-methods --script-args="ssh.user=student"
+<br/>
+nmap 192.118.151.3 -p 22 --script ssh-auth-methods --script-args="ssh.user=admin"
+<br/>
+<br/>
+<img src="https://i.imgur.com/ocHA6pY.png" height="80%" width="80%" alt="SMB Nmap Scripting" class="center"/>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 
