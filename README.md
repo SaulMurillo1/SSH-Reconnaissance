@@ -108,6 +108,22 @@ nmap 192.118.151.3 -p 22 --script ssh-auth-methods --script-args="ssh.user=admin
 <br />
 <br />
 <br />
+Now that we know the user "student" does not have an authentication method assigned to it, we can test by trying to log in as the student user: <br/>
+<br/>
+- We can see that I was able to log into the student user via SSH, and I was able to locate a flag and enumerate the information inside of it.
+<br/>
+<br/>
+Command: ssh student@192.118.151.3
+<br/>
+<br/>
+<img src="https://i.imgur.com/ZWkuLW8.png" height="80%" width="80%" alt="SMB Nmap Scripting" class="center"/>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 
