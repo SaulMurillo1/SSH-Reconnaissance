@@ -59,6 +59,22 @@ nmap 192.118.151.3 -p 22 -sV -O
 <br />
 <br />
 <br />
+Run nmap scan to enumerate how many encryption algorithms are supported by the SSH server: <br/>
+<br/>
+- We can see that there are 6 encryption algorithms supported by the SSH server.
+<br/>
+<br/>
+Command: nmap 192.118.151.3 -p 22 --script ssh2-enum-algos
+<br/>
+<br/>
+<img src="https://i.imgur.com/U67JMkV.png" height="80%" width="80%" alt="SMB Nmap Scripting" class="center"/>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 
