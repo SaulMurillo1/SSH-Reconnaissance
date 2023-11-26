@@ -75,6 +75,19 @@ Command: nmap 192.118.151.3 -p 22 --script ssh2-enum-algos
 <br />
 <br />
 <br />
+Run nmap scan to enumerate the ssh-rsa host key that is being used by the SSH server: <br/>
+<br/>
+Command: nmap 192.118.151.3 -p 22 --script ssh-hostkey --script-args ssh_hostkey=full
+<br/>
+<br/>
+<img src="https://i.imgur.com/r7iKPGO.png" height="80%" width="80%" alt="SMB Nmap Scripting" class="center"/>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 
