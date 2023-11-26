@@ -41,6 +41,24 @@ ping -c 5 192.118.151.3
 <br />
 <br />
 <br />
+Run nmap scan to look for open tcp ports: <br/>
+<br/>
+- We can see that the nmap scans found that port 22 (SSH) is open, and it has some version of OpenSSH.
+<br/>
+<br/>
+Commands: nmap 192.118.151.3
+<br/>
+nmap 192.118.151.3 -p 22 -sV -O
+<br/>
+<br/>
+<img src="https://i.imgur.com/W7fok7a.png" height="80%" width="80%" alt="SMB Nmap Scripting" class="center"/>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 
 
